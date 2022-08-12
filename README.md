@@ -1,4 +1,4 @@
-Continuous Doubly Constrained Batch Reinforcement Learning
+Flexible Model Aggregation for Quantile Regression
 =============================================
 Quantile regression is a fundamental problem in statistical learning motivated by the need to quantify uncertainty in predictions, or to model a diverse population without being overly reductive. For instance, epidemiological forecasts, cost estimates, and revenue predictions all benefit from being able to quantify the range of possible values accurately. As such, many models have been developed for this problem over many years of research in econometrics, statistics, and machine learning.
 
