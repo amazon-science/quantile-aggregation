@@ -25,9 +25,9 @@ Run the following commands in the specified order:
 
 1) python -u nested_base_quantile_models.py --DATA_PATH ~/mydata/ --data_loc ~/rawdata/ --task-id yacht -seed 1
 
-2) python -u merge_nested_dara.py --DATA_PATH ~/mydata/ --task-id yacht -seed 1
+2) python -u merge_nested_data.py --DATA_PATH ~/mydata/ --task-id yacht --seed 1
 
-3) python -u nested_aggr_quantile_models.py --DATA_PATH ~/mydata/ --task-id yacht -seed 1 --RESULT_PATH ~/myresult/
+3) python -u nested_aggr_quantile_models.py --DATA_PATH ~/mydata/ --task-id yacht --seed 1 --RESULT_PATH ~/myresult/
 
 ```
 The code works on both GPU and CPU machines.
