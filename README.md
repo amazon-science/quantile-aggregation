@@ -7,7 +7,7 @@ models, but also over quantile levels, and feature values. All of the models we 
 
 To improve the accuracy of the predicted quantiles (or equivalently, prediction intervals), we develop tools for ensuring that quantiles remain monotonically ordered, and apply conformal calibration methods. These can be used without any modification of the original library of base models. We also review some basic theory surrounding quantile aggregation and related scoring rules, and contribute a few new results to this literature (for example, the fact that post sorting or post isotonic regression can only improve the weighted interval score). Finally, we provide an extensive suite of empirical comparisons across 34 data sets from two different benchmark repositories. 
 
-Thisrepository provides the implementation of [Flexible Model Aggregation for Quantile Regression](https://arxiv.org/abs/2103.00083). If you use this code please cite the paper using the following bibtex:
+This repository provides the implementation of [Flexible Model Aggregation for Quantile Regression](https://arxiv.org/abs/2103.00083). If you use this code please cite the paper using the following bibtex:
 
 ```
 @article{fakoor2022quantile,
