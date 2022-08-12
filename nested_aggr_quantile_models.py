@@ -130,12 +130,6 @@ def run_exp(task_id, use_local=True,
     train_idx_list = np.load(eparams.DATA_PATH + eparams.log_id_base +'quantile_all_train_idx_{}_cv{}_iter{}_seed{}.npy'.format(*exp_name))
     cv_split = np.load(eparams.DATA_PATH + eparams.log_id_base +'quantile_train_val_idx_{}_cv{}_iter{}_seed{}.npy'.format(*exp_name), allow_pickle=True)
 
-    # set cv splits
-    #train_size = x_train.shape[0]
-    #train_idx_list = np.arange(train_size)
-    #np.random.shuffle(train_idx_list)
-    #cv_split = [[train_idx_list[:int(train_size * CV_RATIO)], train_idx_list[int(train_size * CV_RATIO):]]]
-
     # num of base models and quantiles
     num_models, num_quantiles = z_train.shape[1], z_train.shape[2]
     assert num_quantiles == NUM_QUANTILES
